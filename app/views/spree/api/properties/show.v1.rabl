@@ -1,10 +1,10 @@
 object @property
 
-if params[:set] == 'nested'
-  extends "spree/api/taxonomies/nested"
-else
-  attributes *property_attributes
+attributes *[:id, :name, :presentation, :parent_id, :lft, :rgt]
+child :root => :root do
+  attributes *[:id, :name, :presentation, :parent_id, :lft, :rgt]
+
   child :children => :property do
-    attributes *property_attributes
+    attributes *[:id, :name, :presentation, :parent_id, :lft, :rgt]
   end
 end
