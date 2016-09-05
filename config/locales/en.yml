@@ -1,0 +1,36 @@
+en:
+  activerecord:
+  models:
+    spree/taxon:
+      one: Catalog
+      other: Catalogs
+    spree/taxonomy:
+      one: Category
+      other: Categories
+  spree:
+    add_taxon: Add catalog
+    admin:
+      tab:
+        taxonomies: Categories
+        taxons: Catalog
+    back_to_taxonomies_list: Back To Catagories List
+    choose_a_taxon_to_sort_products_for: "Choose a calalog to sort products for"
+    errors:
+      messages:
+        could_not_create_taxon: Could not create catalog
+    find_a_taxon: Find a Catalog
+    new_taxon: New Catalog
+    new_taxonomy: New Categories
+    promotion_rule_types:
+      taxon:
+        description: Order includes products with specified catalog(s)
+        name: Catalog(s)
+    taxon: Catalog
+    taxon_edit: Edit Catalog
+    taxon_placeholder: Add a Catalog
+    taxon_rule:
+      choose_taxons: Choose catalogs
+    taxonomies: Categories
+    taxonomy: Category
+    taxonomy_edit: Edit category
+    taxons: Catalogs
